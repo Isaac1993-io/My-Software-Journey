@@ -1,0 +1,138 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color:#333
+}
+
+header {
+    background-color: #005f73;
+    color: white;
+    padding: 5px 0;
+}
+
+.header-content{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header h1 { 
+    margin-left: 20px;
+
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-size: cover;
+    height: 400px;
+    background-image: url(https://www.google.com/imgres?q=business%20office%20images&imgurl=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fthumbnails%2F031%2F696%2F573%2Fsmall%2Fempty-floor-space-with-a-modern-business-office-building-in-the-background-ai-generated-photo.jpg&imgrefurl=https%3A%2F%2Fwww.vecteezy.com%2Ffree-photos%2Fbusiness-office&docid=wb--TRFh35qwCM&tbnid=GQOqsB-eELy9kM&vet=12ahUKEwjSm6WAu8GMAxW9SWwGHRCLG6sQM3oECBwQAA..i&w=336&h=200&hcb=2&ved=2ahUKEwjSm6WAu8GMAxW9SWwGHRCLG6sQM3oECBwQAA);
+
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.Hero-button{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ee6c4d;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+
+}
+
+.hero-button:hover {
+    background-color: #d64b2a;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#services{
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#services h2{
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+#services h2 p {
+    margin-bottom: 10px;
+}
+
+#About {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+
+}
+#About h2 {
+    color: #28a745;
+    margin-bottom: 15px;
+}
+
+#Contact{
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#Contact h2{
+    color: #dc3545;
+    margin-bottom: 15px;
+}
+
+
+#Contact p{
+    margin-bottom: 10px;
+}
+
+
+footer{
+    background-color: #005f73;
+    padding: 20px;
+    color: white;
+    text-align: center;
+
+}
+
+
+/* hover effects */
+
+#services li:hover,
+#Contact p:hover{
+    color: #0056b3;
+    cursor: pointer;
+}
